@@ -1,0 +1,18 @@
+{
+  "name": "auto-switch-uhk-keymap",
+  "version": "1.0.1",
+  "description": "switch Ultimate Hacking Keyboard keymap from cli",
+  "main": "index.js",
+	"bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["uhk", "keymap", "switch", "Ultimate Hacking Keyboard"],
+  "author": "xqin@xqin.net",
+  "license": "See in LICENSE",
+  "dependencies": {
+    "node-hid": "^2.1.2",
+    "semver": "^7.5.4",
+    "usb": "^2.9.0"
+  }
+}
